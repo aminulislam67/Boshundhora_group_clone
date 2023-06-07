@@ -1,0 +1,41 @@
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .navbar .logo img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+    }
+
+    .navbar .menu li {
+      list-style: none;
+      margin-left: 10px;
+    }
+
+    /* CSS for the media enterprise section */
+    .media-enterprise {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .media-enterprise img {
+      height: 20px;
+      margin-left: 10px;
+    }

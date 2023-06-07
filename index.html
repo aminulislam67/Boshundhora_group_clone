@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Home-Basundhara Group</title>
+  <style>
+    .logo-container {
+      padding-left: 50px;
+    }
+    .navbar {
+      background-color: #000000; 
+    }
+    .navbar-nav .nav-link {
+      font-size: 14px; 
+    }
+    .navbar-nav .dropdown-menu {
+      background-color: #f3f0f0; 
+    }
+    .navbar-nav .dropdown-menu .dropdown-item {
+      font-size: 14px; 
+    }
+    .navbar-nav .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .carousel-item {
+      height: 600px; 
+    }
+    .carousel-item img {
+      height: 100%; 
+      width: 100%; 
+    }
+    .footer {
+      background-color: #f3f0f0;
+      padding: 30px 0;
+      color: #fafafa;
+      font-size: 14px;
+    }
+
+    
+
+    .footer .container1 {
+      padding-top: 70px;
+      padding-left: 90px;
+      display: flex;
+      background-color: rgb(31, 28, 28);
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .footer .container2 {
+    text-align: center;
+    padding-left: 90px;
+      display: flex;
+
+      background-color: rgb(0, 0, 0);
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .footer .container3 {
+  
+
+
+      display: flex;
+      background-color: rgb(66, 66, 66);
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .footer .section {
+    text-align: center;
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      margin-bottom: 30px;
+
+    }
+    .footer .section3 {
+
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px
+
+    }
+    
+    .footer .section .section-title {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    
+    .footer .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .footer .section ul li {
+      margin-bottom: 10px;
+    }
+    
+    .footer .section .contact-info strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .footer .section .contact-info i {
+      margin-right: 5px;
+    }
+    
+    .footer .section .social-icons {
+      margin-top: 10px;
+    }
+    
+    .footer .section .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .footer .section .social-icons img {
+      width: 20px;
+      height: auto;
+    }
+    .second{
+        text-align: center;
+    }
+
+    .read-button {
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .text-right {
+    text-align: right;
+  }
+
+  .red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .blue-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+    
+    
+    @media (max-width: 768px) {
+      .footer .section {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .footer .section {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    .clr{
+        color: red;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <div class="logo-container">
+        <img src="download.png" alt="Company Logo" width="150" height="30">
+      </div>
+    </a>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-home"></i> 
+          About Us
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Messages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+          <a class="dropdown-item" href="#">Chairman's message</a>
+          <a class="dropdown-item" href="#">Chairman's life and work</a>
+         
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="enterpriseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Enterprise
+        </a>
+        <div class="dropdown-menu" aria-labelledby="enterpriseDropdown">
+          <a class="dropdown-item" href="#">Real State</a>
+          <a class="dropdown-item" href="#">Cement sector</a>
+          <a class="dropdown-item" href="#">Paper sector</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="mediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Media
+        </a>
+        <div class="dropdown-menu" aria-labelledby="mediaDropdown">
+          <a class="dropdown-item" href="#">News</a>
+          <a class="dropdown-item" href="#">Photos</a>
+          <a class="dropdown-item" href="#">Videos</a>
+          <a class="dropdown-item" href="#">Youtube</a>
+          <a class="dropdown-item" href="#">Facebook</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="contactDropdown">
+          <a class="dropdown-item" href="#">Phone</a>
+          <a class="dropdown-item" href="#">Email</a>
+          <a class="dropdown-item" href="#">Address</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1.jpg" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="image2.jpg" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="image3.jpg" alt="Image 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+<br> <br>
+    <div class='second'>
+        <h1>Latest News</h1>
+    </div>
+    <br>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img src="im1.jpg" class="img-fluid" alt="Image 1">
+            <h3>Bashundhara Group to supply coal to Rampal power plant</h3>
+            <p><i class="far fa-calendar"></i>&nbsp; March 04, 2022</p>
+            <p>Bashundhara Spice, a brand of the countrys largest business conglomerate Bashundhara Gro…</p>
+          </div>
+          <div class="col-md-4">
+            <img src="im2.jpg" class="img-fluid" alt="Image 2">
+            <h3>Sayem Sobhan Anvir receives Mother Teresa Int'l Award</h3>
+            <p><i class="far fa-calendar"></i>&nbsp;February 25, 2022</p>
+            <p>Bashundhara Ready Mix and Construction Industries Limited (BRMCIL), a concern of the country&rs…</p>
+          </div>
+          <div class="col-md-4">
+            <img src="im3.jpg" class="img-fluid" alt="Image 3">
+            <h3>Safwan Sobhan elected BEZIA president</h3>
+            <p> <i class="far fa-calendar"></i>&nbsp;February 16, 2022</p>
+            <p>Bashundhara Tissue, one of the flagship products of the countrys largest business conglo…</p>
+          </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div style="text-align: center;">
+    <button class="read-button">Read All News</button>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-left">
+              <h2 class="clr">Bashundhara Group</h2>
+              <h3>For the People, for the Country</h3>
+              <p>The Bashundhara Group has started operation as a real estate venture known as "Bashundhara" under the aegis of the group's first concern - the East-West Property Development (Pvt) Ltd in 1987. This project turned out to be a very successful one and had helped faster the growth of…</p>
+              <button class="red-button">Read More</button>
+              <button class="blue-button">Dawnload Corporate Profile</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-center">
+              <img src="fr.jpg" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="logo1.png" alt="Logo 1" class="logo-img">
+          </div>
+          <div class="col-2">
+            <img src="lg2.png" alt="Logo 2" class="logo-img">
+          </div>
+          <div class="col-2">
+            <img src="lg3.png" alt="Logo 3" class="logo-img">
+          </div>
+          <div class="col-2">
+            <img src="lg4.png" alt="Logo 4" class="logo-img">
+          </div>
+          <div class="col-2">
+            <img src="lg5.png" alt="Logo 5" class="logo-img">
+          </div>
+          <div class="col-2">
+            <img src="lg7.png" alt="Logo 5" class="logo-img">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+    
+
+    <footer class="footer">
+        <div class="container1">
+          <div class="section">
+            <h5>Corporate Office</h5>
+            <ul class="contact-info">
+              <li><i class="fas fa-map-marker-alt"></i> Plot # 125/A, Block# A, Bashundhara R/A, Road No - 2 Baridhara, Dhaka-1229</li>
+              <li><i class="fas fa-envelope"></i> info@basundharagroup.com</li>
+              <li><i class="fas fa-phone"></i> 123-456-7890</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h5>Industrial Headquarters 1</h5>
+            <ul class="contact-info">
+              <li><i class="fas fa-map-marker-alt"></i> Plot# 3, Block# G Umme Kulsum Road, Bashundhara R/A, Dhaka-1229</li>
+              <li><i class="fas fa-envelope"></i>info@basundharagroup.com</li>
+              <li><i class="fas fa-phone"></i> 123-456-7890</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h5>Industrial Headquarters 2</h5>
+            <ul class="contact-info">
+              <li><i class="fas fa-map-marker-alt"></i> Plot# 56/A, Block# C, Umme Kulsum Road, Bashundhara R/A, Dhaka-1229
+              </li>
+              <li><i class="fas fa-envelope"></i> info@basundharagroup.com</li>
+              <li><i class="fas fa-phone"></i> 123-456-7890</li>
+            </ul>
+          </div>
+        </div>
+
+ 
+            <div class="container2">
+              <div class="section">
+                <div class="row">
+                <p><i class="fas fa-building"></i> Bashundhara Group © 2018 / All rights reserved.</p> 
+                <div class="social-icons">
+                   <a href="#"><img src="FB.JPG" alt="FaceBook"></a>
+                  <a href="#"><img src="OIP.JPG" alt="FaceBook"></a>
+                  <a href="#"><img src="ln.JPG" alt="FaceBook"></a>
+
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container3">
+                <div class="section3">
+                  <p>Privacy Policy - Developed and Maintain by IT Division, Sector-C</p>
+
+                </div>
+              </div>
+          
+          
+      </footer>
+    
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</body>
+</html>
