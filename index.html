@@ -4,19 +4,21 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
   <title>Home-Basundhara Group</title>
   <style>
     .logo-container {
-      padding-left: 50px;
+      padding-left: 80px;
+      size: 150px;
     }
     .navbar {
-      background-color: #000000; 
+      background-color: #ffffff; 
     }
     .navbar-nav .nav-link {
-      font-size: 14px; 
+      font-size: 20px; 
     }
     .navbar-nav .dropdown-menu {
-      background-color: #f3f0f0; 
+      background-color: #ffffff; 
     }
     .navbar-nav .dropdown-menu .dropdown-item {
       font-size: 14px; 
@@ -27,10 +29,16 @@
     .carousel-item {
       height: 600px; 
     }
+    .bg-dark {
+  background-color: #000;
+}
     .carousel-item img {
       height: 100%; 
       width: 100%; 
     }
+    .navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
     .footer {
       background-color: #f3f0f0;
       padding: 30px 0;
@@ -182,63 +190,69 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4 pb-4 pr-4">
     <a class="navbar-brand" href="#">
       <div class="logo-container">
-        <img src="download.png" alt="Company Logo" width="150" height="30">
+        <img src="download.png" alt="Company Logo" width="250" height="50" >
       </div>
     </a>
 
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-home"></i> 
-          About Us
-        </a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Messages
-        </a>
-        <div class="dropdown-menu" aria-labelledby="messagesDropdown">
-          <a class="dropdown-item" href="#">Chairman's message</a>
-          <a class="dropdown-item" href="#">Chairman's life and work</a>
-         
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="enterpriseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Enterprise
-        </a>
-        <div class="dropdown-menu" aria-labelledby="enterpriseDropdown">
-          <a class="dropdown-item" href="#">Real State</a>
-          <a class="dropdown-item" href="#">Cement sector</a>
-          <a class="dropdown-item" href="#">Paper sector</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="mediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Media
-        </a>
-        <div class="dropdown-menu" aria-labelledby="mediaDropdown">
-          <a class="dropdown-item" href="#">News</a>
-          <a class="dropdown-item" href="#">Photos</a>
-          <a class="dropdown-item" href="#">Videos</a>
-          <a class="dropdown-item" href="#">Youtube</a>
-          <a class="dropdown-item" href="#">Facebook</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Contact
-        </a>
-        <div class="dropdown-menu" aria-labelledby="contactDropdown">
-          <a class="dropdown-item" href="#">Phone</a>
-          <a class="dropdown-item" href="#">Email</a>
-          <a class="dropdown-item" href="#">Address</a>
-        </div>
-      </li>
-    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-home"></i> 
+            About Us
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Messages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+            <a class="dropdown-item" href="#">Chairman's message</a>
+            <a class="dropdown-item" href="#">Chairman's life and work</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="enterpriseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Enterprise
+          </a>
+          <div class="dropdown-menu" aria-labelledby="enterpriseDropdown">
+            <a class="dropdown-item" href="#">Real State</a>
+            <a class="dropdown-item" href="#">Cement sector</a>
+            <a class="dropdown-item" href="#">Paper sector</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="mediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Media
+          </a>
+          <div class="dropdown-menu" aria-labelledby="mediaDropdown">
+            <a class="dropdown-item" href="#">News</a>
+            <a class="dropdown-item" href="#">Photos</a>
+            <a class="dropdown-item" href="#">Videos</a>
+            <a class="dropdown-item" href="#">Youtube</a>
+            <a class="dropdown-item" href="#">Facebook</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contact
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contactDropdown">
+            <a class="dropdown-item" href="#">Phone</a>
+            <a class="dropdown-item" href="#">Email</a>
+            <a class="dropdown-item" href="#">Address</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <div id="carouselExample" class="carousel slide" data-ride="carousel">
@@ -299,7 +313,7 @@
     </div>
     <br>
 
-    <div class="container">
+    <div id="container1" class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="text-left">
@@ -323,7 +337,7 @@
       <br>
 
       
-      <div class="container">
+      <div id="container2" class="container">
         <div class="row">
           <div class="col-2">
             <img src="logo1.png" alt="Logo 1" class="logo-img">
@@ -409,7 +423,26 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Get references to the container elements
+// Get references to the container elements
+// Get references to the container elements
+var container1 = document.getElementById("container1");
+var container2 = document.getElementById("container2");
 
+// Generate a random number (0 or 1) to determine the swap
+var random = Math.random();
+console.log(random)
+
+// Swap the containers
+if (random < 0.5) {
+  // Swap container1 with container2
+  var temp = container1.innerHTML;
+  container1.innerHTML = container2.innerHTML;
+  container2.innerHTML = temp;
+} 
+
+</script>
 </body>
 </body>
 </html>
